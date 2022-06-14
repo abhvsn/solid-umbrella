@@ -233,18 +233,17 @@
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
-                "key_select.selectedOptionValue",
+                "(data_table.pageNo - 1) * data_table.pageSize",
                 "data_table.pageSize",
                 "data_table.searchText||\"\"",
-                "(data_table.pageNo - 1) * data_table.pageSize",
+                "key_select.selectedOptionValue",
                 "order_select.selectedOptionValue"
               ],
               "timeoutInMillisecond": 10000
             }
           ]
         ],
-        "widgetNames": [
-          "MainContainer",
+        "mongoEscapedWidgetNames": [
           "Table1"
         ],
         "validOnPageLoadActions": true,
@@ -258,6 +257,5 @@
     "policies": []
   },
   "deleted": false,
-  "policies": [],
   "gitSyncId": "62a893c61f0a8d5a04ee69cb_62a893f71f0a8d5a04ee69df"
 }

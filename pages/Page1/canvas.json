@@ -1316,36 +1316,20 @@
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
-                "key_select.selectedOptionValue",
+                "(data_table.pageNo - 1) * data_table.pageSize",
                 "data_table.pageSize",
-                "data_table.sortOrder.order == \"desc\" ? -1 : 1",
                 "data_table.searchText||\"\"",
                 "data_table.sortOrder.column || 'name'",
-                "(data_table.pageNo - 1) * data_table.pageSize",
+                "data_table.sortOrder.order == \"desc\" ? -1 : 1",
+                "key_select.selectedOptionValue",
                 "order_select.selectedOptionValue"
               ],
               "timeoutInMillisecond": 10000
             }
           ]
         ],
-        "widgetNames": [
-          "Alert_text",
-          "Button1",
-          "Canvas1",
-          "Canvas3",
-          "Canvas4",
-          "Container1",
-          "Delete_Button",
-          "Delete_Modal",
-          "Insert_Modal",
-          "MainContainer",
-          "Text12",
-          "Text16",
-          "add_btn",
-          "data_table",
-          "insert_form",
-          "refresh_btn",
-          "update_form"
+        "mongoEscapedWidgetNames": [
+          "data_table"
         ],
         "validOnPageLoadActions": true,
         "id": "Page1",
@@ -1358,6 +1342,5 @@
     "policies": []
   },
   "deleted": false,
-  "policies": [],
   "gitSyncId": "62a893c61f0a8d5a04ee69cb_62a893c61f0a8d5a04ee69cd"
 }
