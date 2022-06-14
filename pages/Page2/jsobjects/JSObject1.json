@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "Page2",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tgetData: async () => {\n\t\tconst data = await FindQuery.run();\n\t\treturn data;\n\t}\n}",
+    "variables": []
+  },
+  "id": "Page2_JSObject1",
+  "deleted": false,
+  "gitSyncId": "62a893c61f0a8d5a04ee69cb_62a8940d1f0a8d5a04ee69e9"
+}
