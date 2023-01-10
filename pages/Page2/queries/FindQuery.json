@@ -18,6 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
+      "selfReferencingDataPaths": [],
       "formData": {
         "aggregate": {
           "limit": {
@@ -60,7 +61,7 @@
         },
         "find": {
           "query": {
-            "data": "{}",
+            "data": "",
             "viewType": "component",
             "componentData": "{ email: /{{data_table.searchText||\"\"}}/i }"
           },
@@ -90,7 +91,7 @@
         },
         "misc": {
           "formToNativeQuery": {
-            "data": "{\n  \"find\": \"users\",\n  \"filter\": {},\n  \"sort\": {},\n  \"skip\": 0,\n  \"limit\": 10,\n  \"batchSize\": 10\n}\n",
+            "data": "{\n  \"find\": \"users\",\n  \"sort\": {},\n  \"skip\": 0,\n  \"limit\": 10,\n  \"batchSize\": 10\n}\n",
             "status": "SUCCESS"
           }
         },

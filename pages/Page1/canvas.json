@@ -1316,12 +1316,12 @@
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
-                "(data_table.pageNo - 1) * data_table.pageSize",
+                "key_select.selectedOptionValue",
                 "data_table.pageSize",
+                "data_table.sortOrder.order == \"desc\" ? -1 : 1",
                 "data_table.searchText||\"\"",
                 "data_table.sortOrder.column || 'name'",
-                "data_table.sortOrder.order == \"desc\" ? -1 : 1",
-                "key_select.selectedOptionValue",
+                "(data_table.pageNo - 1) * data_table.pageSize",
                 "order_select.selectedOptionValue"
               ],
               "timeoutInMillisecond": 10000

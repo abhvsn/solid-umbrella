@@ -19,7 +19,7 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 59,
+          "version": 75,
           "minHeight": 900,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
@@ -27,225 +27,64 @@
           "children": [
             {
               "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-              "widgetName": "Table1",
-              "defaultPageSize": 0,
-              "columnOrder": [
-                "name",
-                "_id",
-                "email",
-                "username"
+              "widgetName": "Iframe1",
+              "displayName": "Iframe",
+              "iconSVG": "/static/media/icon.34169b6acebc8ace125dd1f638974aae.svg",
+              "searchTags": [
+                "embed"
               ],
-              "isVisibleDownload": true,
-              "dynamicPropertyPathList": [],
-              "displayName": "Table",
-              "iconSVG": "/static/media/icon.db8a9cbd.svg",
-              "topRow": 19,
-              "bottomRow": 58,
-              "isSortable": true,
+              "topRow": 13,
+              "bottomRow": 52,
               "parentRowSpace": 10,
-              "type": "TABLE_WIDGET",
-              "defaultSelectedRow": "0",
+              "source": "https://app.appsmith.com/app/business-directory-with-clearbit-api/business-directory-63aec4d1639e241a2b854339?embed=true",
+              "type": "IFRAME_WIDGET",
               "hideCard": false,
+              "borderOpacity": 100,
               "animateLoading": true,
-              "parentColumnSpace": 18.15625,
+              "parentColumnSpace": 18.0625,
               "dynamicTriggerPathList": [],
+              "leftColumn": 12,
               "dynamicBindingPathList": [
-                {
-                  "key": "accentColor"
-                },
                 {
                   "key": "borderRadius"
                 },
                 {
                   "key": "boxShadow"
-                },
-                {
-                  "key": "childStylesheet.button.buttonColor"
-                },
-                {
-                  "key": "childStylesheet.button.borderRadius"
-                },
-                {
-                  "key": "childStylesheet.menuButton.menuColor"
-                },
-                {
-                  "key": "childStylesheet.menuButton.borderRadius"
-                },
-                {
-                  "key": "childStylesheet.iconButton.buttonColor"
-                },
-                {
-                  "key": "childStylesheet.iconButton.borderRadius"
-                },
-                {
-                  "key": "tableData"
-                },
-                {
-                  "key": "primaryColumns.name.computedValue"
-                },
-                {
-                  "key": "primaryColumns._id.computedValue"
-                },
-                {
-                  "key": "primaryColumns.email.computedValue"
-                },
-                {
-                  "key": "primaryColumns.username.computedValue"
                 }
               ],
-              "leftColumn": 11,
-              "primaryColumns": {
-                "appsmith_mongo_escape_id": {
-                  "index": 1,
-                  "width": 150,
-                  "id": "_id",
-                  "horizontalAlignment": "LEFT",
-                  "verticalAlignment": "CENTER",
-                  "columnType": "text",
-                  "textSize": "0.875rem",
-                  "enableFilter": true,
-                  "enableSort": true,
-                  "isVisible": true,
-                  "isDisabled": false,
-                  "isCellVisible": true,
-                  "isDerived": false,
-                  "label": "_id",
-                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow._id))}}"
-                },
-                "name": {
-                  "index": 0,
-                  "width": 150,
-                  "id": "name",
-                  "horizontalAlignment": "LEFT",
-                  "verticalAlignment": "CENTER",
-                  "columnType": "text",
-                  "textSize": "0.875rem",
-                  "enableFilter": true,
-                  "enableSort": true,
-                  "isVisible": true,
-                  "isDisabled": false,
-                  "isCellVisible": true,
-                  "isDerived": false,
-                  "label": "name",
-                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.name))}}"
-                },
-                "email": {
-                  "index": 2,
-                  "width": 150,
-                  "id": "email",
-                  "horizontalAlignment": "LEFT",
-                  "verticalAlignment": "CENTER",
-                  "columnType": "text",
-                  "textSize": "0.875rem",
-                  "enableFilter": true,
-                  "enableSort": true,
-                  "isVisible": true,
-                  "isDisabled": false,
-                  "isCellVisible": true,
-                  "isDerived": false,
-                  "label": "email",
-                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.email))}}"
-                },
-                "username": {
-                  "index": 3,
-                  "width": 150,
-                  "id": "username",
-                  "horizontalAlignment": "LEFT",
-                  "verticalAlignment": "CENTER",
-                  "columnType": "text",
-                  "textSize": "0.875rem",
-                  "enableFilter": true,
-                  "enableSort": true,
-                  "isVisible": true,
-                  "isDisabled": false,
-                  "isCellVisible": true,
-                  "isDerived": false,
-                  "label": "username",
-                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.username))}}"
-                }
-              },
-              "delimiter": ",",
-              "key": "gtj557cwo8",
-              "derivedColumns": {},
+              "borderWidth": 1,
+              "key": "x1mlmut0g9",
               "isDeprecated": false,
-              "rightColumn": 56,
-              "textSize": "0.875rem",
-              "widgetId": "6tbgfivgpd",
-              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-              "isVisibleFilters": true,
-              "tableData": "{{JSObject1.getData.data}}",
+              "rightColumn": 55,
+              "widgetId": "gh0mgu37da",
               "isVisible": true,
-              "label": "Data",
-              "searchKey": "",
-              "enableClientSideSearch": true,
-              "version": 3,
-              "totalRecordsCount": 0,
+              "version": 1,
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "horizontalAlignment": "LEFT",
-              "isVisibleSearch": true,
-              "childStylesheet": {
-                "button": {
-                  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                  "boxShadow": "none"
-                },
-                "menuButton": {
-                  "menuColor": "{{appsmith.theme.colors.primaryColor}}",
-                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                  "boxShadow": "none"
-                },
-                "iconButton": {
-                  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                  "boxShadow": "none"
-                }
-              },
-              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "isVisiblePagination": true,
-              "verticalAlignment": "CENTER",
-              "columnSizeMap": {
-                "task": 245,
-                "step": 62,
-                "status": 75
-              }
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
             }
           ]
         },
         "layoutOnLoadActions": [
           [
             {
-              "id": "Page2_JSObject1.getData",
-              "name": "JSObject1.getData",
-              "collectionId": "Page2_JSObject1",
-              "clientSideExecution": true,
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [
-                "async () => {\n\t\tconst data = await FindQuery.run();\n\t\treturn data;\n\t}"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
               "id": "Page2_UserSetOnPageLoad",
               "name": "UserSetOnPageLoad",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
-                "(data_table.pageNo - 1) * data_table.pageSize",
+                "key_select.selectedOptionValue",
                 "data_table.pageSize",
                 "data_table.searchText||\"\"",
-                "key_select.selectedOptionValue",
+                "(data_table.pageNo - 1) * data_table.pageSize",
                 "order_select.selectedOptionValue"
               ],
               "timeoutInMillisecond": 10000
             }
           ]
         ],
-        "mongoEscapedWidgetNames": [
-          "Table1"
-        ],
+        "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "Page2",
         "deleted": false,
