@@ -1,0 +1,33 @@
+{
+    "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+    "widgetName": "Iframe1",
+    "displayName": "Iframe",
+    "iconSVG": "/static/media/icon.34169b6acebc8ace125dd1f638974aae.svg",
+    "searchTags": ["embed"],
+    "topRow": 13,
+    "bottomRow": 52,
+    "parentRowSpace": 10,
+    "source": "https://app.appsmith.com/app/business-directory-with-clearbit-api/business-directory-63aec4d1639e241a2b854339?embed=true",
+    "type": "IFRAME_WIDGET",
+    "hideCard": false,
+    "borderOpacity": 100,
+    "animateLoading": true,
+    "parentColumnSpace": 18.0625,
+    "dynamicTriggerPathList": [],
+    "leftColumn": 12,
+    "dynamicBindingPathList": [
+        {"key": "borderRadius"},
+        {"key": "boxShadow"}
+    ],
+    "borderWidth": 1,
+    "key": "x1mlmut0g9",
+    "isDeprecated": false,
+    "rightColumn": 55,
+    "widgetId": "gh0mgu37da",
+    "isVisible": true,
+    "version": 1,
+    "parentId": "0",
+    "renderMode": "CANVAS",
+    "isLoading": false,
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+}

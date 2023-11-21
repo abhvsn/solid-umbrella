@@ -6,7 +6,6 @@
     "pluginType": "JS",
     "actions": [],
     "archivedActions": [],
-    "body": "export default {\n\tgetData: async () => {\n\t\tconst data = await FindQuery.run();\n\t\treturn data;\n\t}\n}",
     "variables": [],
     "userPermissions": []
   },
